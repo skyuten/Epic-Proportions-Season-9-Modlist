@@ -1,59 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-button {
-  background-color: #2b5b84;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 15px;
-}
-button:hover {
-  background-color: #3c7ab8;
-}
-        body {
-  font-family: Arial, sans-serif;
-}
-</style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minecraft Mods List</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        nav a button {
+            background-color: #000000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+            transition: background 0.3s;
+        }
+
+        nav a button:hover {
+            background-color: #555555;
+        }
+
+        ul {
+            margin: 20px;
+            padding-left: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <div style="text-align:center; margin-bottom:20px;">
-  <a href="index.html"><button>Mod List</button></a><a href="Proof.html"><button>Fair Use</button></a>
-</div>
-    <h1>Mod List</h1>
+    <header>
+        <h1>Minecraft Mods List</h1>
+    </header>
+
+    <nav>
+        <a href="index.html"><button>Mod List</button></a>
+        <a href="Proof.html"><button>Fair Use</button></a>
+    </nav>
+
     <ul>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/morph/">Morph</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/hats/">Hats</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/mutant-creatures-mod/">Mutant Creatures</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/ichunutil/">iChunUtil</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/animated-player-mod/">Animated Player</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/animationapi/">AnimationAPI</a></li>
+        <!-- Alphabetical mod list here -->
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/advent-of-ascension-nevermine/">Advent of Ascension (AoA)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/animationapi/">AnimationAPI</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/animated-player-mod/">Animated Player</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/arcana-rpg-final-version/">Arcana RPG</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/back-tools/">Back Tools</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/forge-backpacks/">Backpack Mod</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bookshelf/">Bookshelf</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/codechickencore/">CodeChickenCore</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/decocraft/">DecoCraft</a></li>
-        <li><a href="https://files2.cdn9mc.com/index.php?act=dl&id=1407999258">Dungeon Pack</a></li>
+        <li><a href="files2.cdn9mc.com/index.php?act=dl&id=1407999258">Dungeon Pack</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-lights/">Dynamic Lights</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/enchanting-plus/">Enchanting Plus</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/extra-golems/">Extra Golems</a></li>
         <li><a href="https://buzzheavier.com/h5hod49is6x4">Familiars API</a></li>
         <li><a href="https://buzzheavier.com/kvcw8i5l6rq6">Familiars Default Mob Pack</a></li>
         <li><a href="https://buzzheavier.com/svfih5cnm3pv">Familiars Extended Fam Pack</a></li>
         <li><a href="https://buzzheavier.com/cx0ge2x0v9ho">Familiars Herobrine Fam Pack</a></li>
-        <li><a href="https://dl4.cdn9mc.com/index.php?act=dl&id=1412908381">Grim3212 Core</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/extra-golems/">Extra Golems</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/enchanting-plus/">Enchanting Plus</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/headcrumbs/">Headcrumbs</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/hats/">Hats</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/atomicstrykers-infernal-mobs/">Infernal Mobs</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/lootbags/">LootBags</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/lucky-block/">Lucky Block</a></li>
+        <li><a href="http://dl.liteloader.com/redist/1.7.10/liteloader-installer-1.7.10-04.jar">LiteLoader</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/magical-weapons-and-armor-workshop/">Magical Weapons and Armor Workshop (MWAW)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/malisiscore/">MalisisCore</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/malisisdoors/">MalisisDoors</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/mob-amputation/">Mob Amputation</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/mob-dismemberment/">Mob Dismemberment</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/morph/">Morph</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod/">MrCrayfish's Furniture Mod</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/notenoughitems/">NotEnoughItems (NEI)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/pandoras-box/">Pandora's Box</a></li>
@@ -64,19 +109,13 @@ button:hover {
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/torched/">Torched</a></li>
         <li><a href="https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1286538-hit-splat-damage-indicators-v3-3-2-rpg-ui-and">Damage Indicators</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/treecapitator/">Treecapitator</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/forge-backpacks/">Backpack Mod</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/custom-pets/">Custom Pets</a></li>
-        <li><a href="https://dl3.cdn9mc.com/index.php?act=dl&id=1393935355">Extreme Farming</a></li>
-        <li><a href="http://dl.liteloader.com/redist/1.7.10/liteloader-installer-1.7.10-04.jar">LiteLoader</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/lucky-block/">Lucky Block</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/malisiscore/">MalisisCore</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/malisisdoors/">MalisisDoors</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/voxelmap/">VoxelMap</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/magical-weapons-and-armor-workshop/">Magical Weapons and Armor Workshop (MWAW)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/youtubers-mod/">Youtubers+ Mod</a></li>
+        <li><a href="https://dl3.cdn9mc.com/index.php?act=dl&id=1393935355">Extreme Farming</a></li>
     </ul>
 </body>
 </html>
+
 
 
 
