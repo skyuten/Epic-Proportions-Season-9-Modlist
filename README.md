@@ -1,5 +1,6 @@
 ![Epic Proportions S9](https://cdn.modrinth.com/data/cached_images/a4f4880122b821e9b60bc1dec989c3ea21c4d461.png)
 ![This is my attempt  at creating an identical modpack for:](https://cdn.modrinth.com/data/cached_images/b86676b89924cbce69b429b6f3dfa7936d81124e.png)
+
 ![EPS9](https://cdn.modrinth.com/data/cached_images/b700bc7f8e635b8c02f6f72e84bbcd9e7faaa380.png)
 ![I always wanted to play minecrfat with the mods in epic proportions and try to do something similar to my childhood hero. Instead of just finding the mods and installing them for myself, i wanted to share them with anyone wanting to do the same!](https://cdn.modrinth.com/data/cached_images/571ac1955bf618ae7352178e7bdf08452893edca.png)
 ![PopularMMOs' channel banner](https://cdn.modrinth.com/data/cached_images/153e7a76f643bda98b5bfa4025f22c14442df2d4.png)
