@@ -62,7 +62,7 @@ Youtubers+ Mod](https://cdn.modrinth.com/data/cached_images/6c8d8e1cce127d36bf44
 ![Line break](https://cdn.modrinth.com/data/cached_images/b673d1dd10f8d85ac5767246ce53b5d02548c392.png)
 
 <details>
-<summary>Spoiler</summary>
+<summary>PopularMMOs</summary>
 
 ![Old video](https://cdn.modrinth.com/data/cached_images/445130c2a033818348ca623ad25c6c27047e9514_0.webp)
 ![PopularMMOs](https://cdn.modrinth.com/data/cached_images/645028748073ceee825177601d86422da585602c_0.webp)
@@ -78,9 +78,7 @@ Youtubers+ Mod](https://cdn.modrinth.com/data/cached_images/6c8d8e1cce127d36bf44
 [![](https://cdn.modrinth.com/data/cached_images/cb1582c8022dce05861a808fa905e7ac46fae7a2.png)](https://skyuten.github.io/Epic-Proportions-Season-9/)
 
 <details>
-<summary>Spoiler</summary>
-
-Links:
+<summary>Links</summary>
 
 [Extra Golems](https://www.curseforge.com/minecraft/mc-mods/extra-golems)
 
