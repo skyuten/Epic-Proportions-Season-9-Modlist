@@ -5,6 +5,37 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fair Use</title>
 <style>
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    display: block;
+    padding: 2px 0;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
   body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f5f5f5;
@@ -147,8 +178,17 @@
 
 <section>
   <h2>Familiars Mods proof of permission</h2>
-  <a href="https://minecraft-mods.fandom.com/wiki/Familiars_Mod" target="_blank" rel="noopener noreferrer">Familiars Mods</a>
+  <div class="dropdown">Familiars Mod(s)
+  <div class="dropdown-content">
+    <a href="https://www.mediafire.com/file/i2d46ohkmcio2s1/FamiliarsAPI-1.7.10.jar/file" target="_blank">Familiars API</a>
+    <a href="https://www.mediafire.com/file/oymuafvnknfdik6/FamiliarsExtendedFamPack-1.7.10.jar/file" target="_blank">Familiars ExtendedFamPack</a>
+    <a href="https://www.mediafire.com/download/yb4m4tbdhejxdh6/FamiliarsDefaultMobPack-1.7.10.jar" target="_blank">Familiars DefaultMobPack</a>
+    <a href="https://buzzheavier.com/cx0ge2x0v9ho" target="_blank">Familiars HerobrineFamPack</a>
+    <a href="https://www.planetminecraft.com/mod/familiars-fairy/" target="_blank">Familiars Mod(s) Origin</a>
+  </div>
+  <a href="https://minecraft-mods.fandom.com/wiki/Familiars_Mod" target="_blank" rel="noopener noreferrer">
   <img src="https://i.ibb.co/r2WHFPWS/Screenshot-2025-10-04-232806.png" alt="Familiars Mods proof">
+  </a>
 </section>
 
 <section>
@@ -231,6 +271,7 @@
 
 </body>
 </html>
+
 
 
 
