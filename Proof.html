@@ -5,20 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fair Use</title>
 <style>
-    .dropdown {
+  .dropdown {
     position: relative;
-    display: inline-block;
+    display: inline; /* keep it inline so only the text triggers hover */
     cursor: pointer;
+    color: blue; /* optional styling */
+    text-decoration: underline;
   }
 
   .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
-    z-index: 1;
     border: 1px solid #ccc;
     padding: 5px;
+    z-index: 1;
+    white-space: nowrap; /* prevents wrapping */
   }
 
   .dropdown:hover .dropdown-content {
@@ -27,9 +29,9 @@
 
   .dropdown-content a {
     display: block;
-    padding: 2px 0;
     color: #000;
     text-decoration: none;
+    padding: 2px 0;
   }
 
   .dropdown-content a:hover {
@@ -148,11 +150,12 @@
 
 <section>
   <h2>Grim3212's Mods proof of permission</h2>
-    <div class="dropdown"><strong>Grim3212's Mods</strong>
-  <div class="dropdown-content">
+<span class="dropdown"><strong>Grim3212's Mods</strong>
+  <span class="dropdown-content">
     <a href="https://grim3212.com/grim-pack/core" target="_blank">Grim3212core</a>
     <a href="https://grim3212.com/grim-pack/tools/pokeball" target="_blank">Pokeball</a>
-  </div>
+  </span>
+</span>
   <a href="https://github.com/grim3212/AssortedTools?tab=GPL-3.0-1-ov-file#readme" target="_blank" rel="noopener noreferrer">
     <img src="https://cdn.modrinth.com/data/cached_images/7f58a2bc06eb45485765808317981b4d09938e8b.png" alt="click me!">
   </a>
@@ -182,14 +185,15 @@
 
 <section>
   <h2>Familiars Mods proof of permission</h2>
-  <div class="dropdown"><strong>Familiars Mod(s)</strong>
-  <div class="dropdown-content">
+<span class="dropdown"><strong>Familiars Mod(s)</strong>
+  <span class="dropdown-content">
     <a href="https://www.mediafire.com/file/i2d46ohkmcio2s1/FamiliarsAPI-1.7.10.jar/file" target="_blank">Familiars API</a>
     <a href="https://www.mediafire.com/file/oymuafvnknfdik6/FamiliarsExtendedFamPack-1.7.10.jar/file" target="_blank">Familiars ExtendedFamPack</a>
     <a href="https://www.mediafire.com/download/yb4m4tbdhejxdh6/FamiliarsDefaultMobPack-1.7.10.jar" target="_blank">Familiars DefaultMobPack</a>
     <a href="https://buzzheavier.com/cx0ge2x0v9ho" target="_blank">Familiars HerobrineFamPack</a>
     <a href="https://www.planetminecraft.com/mod/familiars-fairy/" target="_blank">Familiars Mod(s) Origin</a>
-  </div>
+  </span>
+</span>
   <a href="https://minecraft-mods.fandom.com/wiki/Familiars_Mod" target="_blank" rel="noopener noreferrer">
   <img src="https://i.ibb.co/r2WHFPWS/Screenshot-2025-10-04-232806.png" alt="Familiars Mods proof">
   </a>
@@ -275,6 +279,7 @@
 
 </body>
 </html>
+
 
 
 
