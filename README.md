@@ -137,7 +137,7 @@ Youtubers+ Mod" width="850">
 [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCUP_fMnMIZ36zlZ8nt3ozwg?style=for-the-badge&logo=youtube&logoColor=white&label=Skyuten&labelColor=%23000000&color=%23FF0000&link=https%3A%2F%2Fwww.youtube.com%2F%40Skyuten)](https://youtube.com/@Skyuten) 
 [![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%2F%3Fusername%3DSkyuten%26type%3Dpatrons&style=for-the-badge&logo=patreon&logoColor=%23FFFFFF&labelColor=%23000000&color=%23d3d3d3&link=https%3A%2F%2Fpatreon.com%2FSkyuten%3Futm_medium%3Dunknown%26utm_source%3Djoin_link%26utm_campaign%3Dcreatorshare_creator%26utm_content%3DcopyLink)](https://patreon.com/Skyuten)
 [![CurseForge Downloads](https://img.shields.io/curseforge/dt/1357487?style=for-the-badge&logo=curseforge&logoColor=white&labelColor=%23000000&color=%23FF5F1F%09&link=https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmodpacks%2Fepic-proportions-season-9-original-remaster)](https://www.curseforge.com/minecraft/modpacks/epic-proportions-season-9-original-remaster)
-![Modrinth Downloads](https://img.shields.io/modrinth/dt/GV2vYRJA?style=for-the-badge&logo=Modrinth&logoColor=%23FFFFFF&labelColor=%23000000&color=%2300AF5C)
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/GV2vYRJA?style=for-the-badge&logo=Modrinth&logoColor=%23FFFFFF&labelColor=%23000000&color=%2300AF5C)](https://modrinth.com/modpack/popularmmos-epic-proportions-season-9/versions)
 
 
 
