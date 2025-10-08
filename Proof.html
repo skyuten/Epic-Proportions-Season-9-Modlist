@@ -5,6 +5,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fair Use</title>
 <style>
+
+  .carousel {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .carousel img {
+    width: 300px; /* adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+ .carousel .prev { left: 0; }
+ .carousel .next { right: 0; }
+
   a {
   text-decoration: none;
   color: inherit;
@@ -203,9 +230,9 @@ a:hover {
     <a href="https://www.planetminecraft.com/mod/familiars-fairy/" target="_blank">Familiars Mod(s) Origin</a>
   </span>
 </span>
-  <a href="https://minecraft-mods.fandom.com/wiki/Familiars_Mod" target="_blank" rel="noopener noreferrer">
-  <img src="https://i.ibb.co/r2WHFPWS/Screenshot-2025-10-04-232806.png" alt="Familiars Mods proof">
-  </a>
+  <img id="familiars-img" src="https://i.ibb.co/r2WHFPWS/Screenshot-2025-10-04-232806.png" alt="Familiars Mods proof" style="max-width:100%; height:auto;">
+  <button id="prev-btn">⟵</button>
+  <button id="next-btn">⟶</button>
 </section>
 
 <section>
@@ -286,8 +313,31 @@ a:hover {
 }
 </style>
 
+      <script>
+  const images = [
+    'https://i.ibb.co/mCXF19SM/Screenshot-2025-10-08-171735.png',
+    'https://i.ibb.co/dJXdVBWD/Screenshot-2025-10-08-171854.png'
+  ];
+  let current = 0;
+
+  const carouselImage = document.querySelector('.carousel-image');
+  const nextBtn = document.querySelector('.next');
+  const prevBtn = document.querySelector('.prev');
+
+  nextBtn.addEventListener('click', () => {
+    current = (current + 1) % images.length;
+    carouselImage.src = images[current];
+  });
+
+  prevBtn.addEventListener('click', () => {
+    current = (current - 1 + images.length) % images.length;
+    carouselImage.src = images[current];
+  });
+</script>
+
 </body>
 </html>
+
 
 
 
