@@ -6,32 +6,26 @@
 <title>Fair Use</title>
 <style>
 
-  .carousel {
+    .image-container {
+    width: 400px;
+    height: 400px;
     position: relative;
-    display: inline-block;
-    text-align: center;
-    margin-top: 10px;
+    overflow: hidden;
   }
-  .carousel img {
-    width: 300px; /* adjust size as needed */
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-  .carousel button {
+  img {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0,0,0,0.5);
-    color: white;
-    border: none;
-    font-size: 24px;
-    padding: 5px 10px;
-    cursor: pointer;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
- .carousel .prev { left: 0; }
- .carousel .next { right: 0; }
-
+  .visible {
+    opacity: 1;
+  }
+  
   a {
   text-decoration: none;
   color: inherit;
@@ -230,9 +224,13 @@ a:hover {
     <a href="https://www.planetminecraft.com/mod/familiars-fairy/" target="_blank">Familiars Mod(s) Origin</a>
   </span>
 </span>
-  <img id="familiars-img" src="https://i.ibb.co/mCXF19SM/Screenshot-2025-10-08-171735.png" alt="Familiars Mods proof" style="max-width:100%; height:auto;">
-  <button id="prev-btn">⟵</button>
-  <button id="next-btn">⟶</button>
+    <div class="image-container">
+    <img src="https://i.ibb.co/mCXF19SM/Screenshot-2025-10-08-171735.png" class="visible">
+    <img src="https://i.ibb.co/dJXdVBWD/Screenshot-2025-10-08-171854.png">
+    </div>
+  
+  <button onclick="previousImage()">Previous</button>
+  <button onclick="nextImage()">Next</button>
 </section>
 
 <section>
@@ -313,30 +311,40 @@ a:hover {
 }
 </style>
 
-      <script>
-  const images = [
-    'https://i.ibb.co/mCXF19SM/Screenshot-2025-10-08-171735.png',
-    'https://i.ibb.co/dJXdVBWD/Screenshot-2025-10-08-171854.png'
-  ];
-  let current = 0;
+  <script>
+    let index = 0;
+    const images = document.querySelectorAll('.image-container img');
 
-  const carouselImage = document.querySelector('.carousel-image');
-  const nextBtn = document.querySelector('.next');
-  const prevBtn = document.querySelector('.prev');
+    function showImage(index) {
+      images.forEach((img, i) => {
+        if (i === index) {
+          img.classList.add('visible');
+        } else {
+          img.classList.remove('visible');
+        }
+      });
+    }
 
-  nextBtn.addEventListener('click', () => {
-    current = (current + 1) % images.length;
-    carouselImage.src = images[current];
-  });
+    function nextImage() {
+      index++;
+      if (index >= images.length) {
+        index = 0;
+      }
+      showImage(index);
+    }
 
-  prevBtn.addEventListener('click', () => {
-    current = (current - 1 + images.length) % images.length;
-    carouselImage.src = images[current];
-  });
-</script>
-
+    function previousImage() {
+      index--;
+      if (index < 0) {
+        index = images.length - 1;
+      }
+      showImage(index);
+    }
+  </script>
+      
 </body>
 </html>
+
 
 
 
