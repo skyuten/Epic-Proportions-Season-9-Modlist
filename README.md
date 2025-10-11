@@ -1,5 +1,3 @@
-https://www.youtube.com/watch?v=UGtOq6rj3Sk
-
 <p align="center">
   <img src="https://cdn.modrinth.com/data/cached_images/a4f4880122b821e9b60bc1dec989c3ea21c4d461.png" alt="Epic Proportions S9" width="850">
 </p>
