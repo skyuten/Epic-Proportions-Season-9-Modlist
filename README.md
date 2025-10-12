@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://cdn.modrinth.com/data/cached_images/b700bc7f8e635b8c02f6f72e84bbcd9e7faaa380.png" alt="EPS9" width="600">
+  <img src="https://cdn.modrinth.com/data/cached_images/345f63642bc64cfdb9abe0384fbb2944cc646390.png" alt="EPS9" width="600">
 </p>
 
 <p align="center">
