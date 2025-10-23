@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://cdn.modrinth.com/data/cached_images/345f63642bc64cfdb9abe0384fbb2944cc646390.png" alt="EPS9" width="600">
+  <img src="https://cdn.modrinth.com/data/cached_images/3972964f888c0242c4f54373ce53459d7400bf42.png" alt="EPS9" width="600">
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://cdn.modrinth.com/data/cached_images/153e7a76f643bda98b5bfa4025f22c14442df2d4.png" alt="PopularMMOs' channel banner" width="850">
+  <img src="https://cdn.modrinth.com/data/cached_images/310404d1afaacbbdac53d305856c99c8f886e39e_0.webp" alt="PopularMMOs' channel banner" width="850">
 </p>
 
 <p align="center">
